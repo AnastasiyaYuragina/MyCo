@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@mipmap/ic_launcher"
-            android:id="@+id/imageView"
+            android:id="@+id/device_image"
             android:contentDescription="logo"
             tools:ignore="HardcodedText"
             app:layout_constraintRight_toRightOf="parent"/>
@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/card_device_name"
             android:padding="8dp"
-            app:layout_constraintRight_toLeftOf="@+id/imageView"
+            app:layout_constraintRight_toLeftOf="@+id/device_image"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:gravity="center"

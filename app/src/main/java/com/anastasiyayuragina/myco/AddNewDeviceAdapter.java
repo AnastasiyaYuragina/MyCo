@@ -59,7 +59,7 @@ class AddNewDeviceAdapter extends RecyclerView.Adapter<AddNewDeviceAdapter.ViewH
 
         ViewHolder(View view) {
             super(view);
-            itemView = (CheckedTextView) view.findViewById(R.id.checkedTextView);
+            itemView = (CheckedTextView) view.findViewById(R.id.checked_device);
         }
     }
 }
