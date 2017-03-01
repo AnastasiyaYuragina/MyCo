@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@android:drawable/ic_menu_edit"
-            fab:fab_label="QR Scan"
+            fab:fab_label="@string/button_qr_scan"
             style="@style/MenuButtonsStyle" />
 
         <com.github.clans.fab.FloatingActionButton
@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@android:drawable/ic_menu_edit"
-            fab:fab_label="Bluetooth Detect"
+            fab:fab_label="@string/button_bluetooth_detect"
             style="@style/MenuButtonsStyle" />
 
         <com.github.clans.fab.FloatingActionButton
@@ -62,7 +62,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@android:drawable/ic_menu_edit"
-            fab:fab_label="Enter IMEI"
+            fab:fab_label="@string/button_enter_imei"
             style="@style/MenuButtonsStyle" />
 
     </com.github.clans.fab.FloatingActionMenu>
